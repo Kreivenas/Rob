@@ -19,3 +19,5 @@ def trade_signal_list(request):
     }
 
     return render(request, 'trade_signals/trade_signal_list.html', context)
+def home(request):
+    return render(request, 'trade_signals/home.html')
